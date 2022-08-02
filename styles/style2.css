@@ -1,0 +1,64 @@
+body
+{
+    background-color: #f2f2f2;
+    margin:0;
+    position: relative;
+    min-height: 100vh;
+}
+.header
+{
+   
+    background-color: #003049;
+    /* a certain height */
+    height: 100px;
+    width: 100%;
+
+}
+.main-content
+{
+    padding-bottom: 100px;
+    display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+    
+    text-align: center;
+    /* background color of the columns */
+    background-color: #fff;
+    
+}
+.left-column
+{
+  background-color: #457b9d;
+  flex: 25%;
+  
+}
+.middle-column
+{
+    background-color: #f1faee;
+    flex: 50%;
+}
+.right-column
+{
+    background-color: #a8dadc;
+    flex: 25%;
+   
+}
+
+.footer
+{
+    /* background color of the footer */
+    background-color: #003049;
+    /* padding of the footer */
+   
+    /* text color of the footer */
+    color:#f2f2f2;
+    /* text align of the footer */
+    text-align: center;
+    /* footer to be sticky */
+    position:absolute;
+    bottom: 0;
+
+    width: 100%;
+    /* certain height */
+    height: 100px;
+}
